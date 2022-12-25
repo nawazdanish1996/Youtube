@@ -45,7 +45,7 @@ const YtLive = () => {
             <div className="col-md-4 mt-5">
                 <form onSubmit={submitHandler}>
                     <div className="input-group w-100">
-                        <input onChange={(e)=> setInpData(e.target.value)} value={inpData} placeholder='Search...' className="form-control" />
+                        <input onChange={(e)=> setInpData(e.target.value)} value={inpData} placeholder='YouTube ID...' className="form-control" />
                         <button type="submit" className="btn btn-primary">
                             <i className="fas fa-search"></i>
                         </button>
@@ -70,7 +70,7 @@ const YtLive = () => {
 
             <div className="col-md-12 bg-dark p-4">
                 <p className='text-white'>
-                    Subscribe to my Channel: <button className='btn btn-success'><a href="wsef" target='_blank'>yjuy</a></button>
+                    Subscribe to my YouTube Channel: ....
                 </p>
             </div>
         </div>
